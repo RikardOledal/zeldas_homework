@@ -1,0 +1,21 @@
+[project]
+name = "zeldas-homework"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RIKARD OLEDAL", email = "rikardoledal@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "pdfplumber>=0.11.10",
+]
+
+[project.scripts]
+zeldas-homework = "zeldas_homework:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
