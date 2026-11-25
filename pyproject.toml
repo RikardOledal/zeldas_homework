@@ -8,9 +8,16 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "dotenv>=0.9.9",
+    "fpdf2>=2.9.0",
+    "ipykernel>=7.4.0",
     "openpyxl>=3.1.5",
     "pandas>=3.1.1",
     "pdfplumber>=0.11.10",
+    "pydantic>=2.14.3",
+    "pydantic-ai>=2.75.0",
+    "pymupdf>=2.1",
+    "pypdf>=7.1.1",
 ]
 
 [project.scripts]
